@@ -11,6 +11,9 @@
     padding-top: 12.25rem;
     padding-bottom: 2.5rem;
 }
+.chamada__imagem{
+    width: 600px;
+}
 
 .chamada__titulo {
     font-family: 'Montserrat', serif;
@@ -30,4 +33,12 @@
 
 .chamada__botao {
     width: 100%;
+
+    
+}
+
+@media (width: 610px) {
+    .chamada{
+        background-color: #f0f0;
+    }
 }
